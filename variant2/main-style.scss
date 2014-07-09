@@ -1,0 +1,119 @@
+@import "css/pb-style.css";
+
+body {
+
+  font-family: 'Marck Script', cursive;
+  font-size: 30px;
+  background: rgba(100, 0, 100, 0.1);
+  #wrapper {
+    background: white;
+    font-size: 30px;
+    width: 960px;
+    box-shadow: 0px 0px 20px rgb(100, 0, 100);
+
+    margin: 0 auto;
+    header {
+
+      text-align: center;
+      div {
+        a {
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+      #header-logo {
+        display: inline-block;
+        width: 30%;
+      }
+      #header-map {
+        display: inline-block;
+        width: 20%;
+      }
+      .header-nav {
+        //
+        nav {
+          ul {
+            margin: 0;
+            padding: 0;
+            font-size: 0;
+            display: block;
+            li {
+              list-style-type: none;
+              display: inline;
+              text-align: center;
+              font-size: 0;
+              a {
+                display: inline-block;
+                text-decoration: none;
+                width: 20%;
+                //                border: ridge;
+                font-size: 1.2rem;
+                background: rgba(100, 0, 100, 0.1);
+                padding: 1.3% 0;
+                color: rgba(100, 0, 100, 0.6);
+                &:hover {
+                  background: rgb(100, 0, 100);
+                  -webkit-transition: all 0.6s ease;
+                  -moz-transition: all 0.6s ease;
+                  -ms-transition: all 0.6s ease;
+                  -o-transition: all 0.6s ease;
+                  transition: all 0.6s ease;
+                  color: white;
+
+                }
+                &::after {
+                  clear: both;
+                  display: block;
+                  content: "";
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .test {
+      //
+      img {
+
+      }
+    }
+    #slides {
+      display: none;
+    }
+    .content {
+      width: 80%;
+      margin: 0 auto;
+    }
+    footer {
+    text-align: right;
+//      div {
+//        display: inline-block;
+//        border: ridge;
+//
+//      }
+      background-color: #f58428;
+      border-radius: 0 0 10px 10px;
+      div {
+        h4 {
+          text-align: center;
+
+          border: ridge;
+          margin: 0;
+        }
+      }
+      #copyright {
+
+      }
+      #tyxo-link {
+
+        a > {
+          img {
+
+          }
+        }
+      }
+    }
+  }
+}
