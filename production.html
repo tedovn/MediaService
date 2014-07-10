@@ -37,21 +37,7 @@
     <div class="advertisement-content">
         <section>
             <article>
-                <div id="article-main">
-                    <h1>Производствена база</h1>
-                    <p>
-                        Печатната ни база  разполага с два широкоформатни солвентни принтера - Infinity с ширина 1,6 м и високоскоростен HP Scitex XL1500 с 8 цвята и ширина 5м. Това позволява да оптимизираме сроковете на изпълнение и да следим за качеството на рекламния продукт.
-                        Принтерите печатат върху:
-                        - винил за предно и задно осветяване (за билбордове, транспаранти, калкани, светещи реклами)
-                        - фолиа (за светещи табели, облепяне на транспортни средства, интериор и брандиране)
-                        - винилна ветроустойчива мрежа (за транспаранти, билбордове, постери)
-                        - перфофолио - onewayvision (за декорация на витрини и прозорци)
-                        - канаваца (плат за репродукции на картини и знамена)
-                        Освен печата предлагаме цялостно завършване на рекламния продукт (шев и капси, ламинат)
-
-                    </p>
-                </div>
-                <div id="pages_about" class="textContainer_about">
+                   <div id="pages_about" class="textContainer_about">
                     <div class="textWord_about" data-link="first">
                         <h1>Производствена база</h1>
                         <p>
@@ -149,19 +135,14 @@
 <script type="text/javascript">
 
     $('.textWord_about').hide();
+    $('.textWord_about:hidden:first').show();
     $('.link').click(function() {
         $('.textWord_about').hide();
         $('.textWord_about[data-link=' + $(this).data('link') + ']').fadeIn({
             width: '200px'
         }, 300);
     });
-    $('.link').on(
-            {
-                'click':function () {
-                    $('#article-main').css('display','none');
-                }
-            }
-    )
+
 </script>
 </body>
 </html>
