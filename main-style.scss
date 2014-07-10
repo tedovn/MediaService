@@ -1,16 +1,18 @@
 @import "css/pb-style.css";
-
+@import "css/teddy.css";
+@import "css/slideshow-bar.css";
 body {
+  margin-top:20px;
   margin-bottom: 20px;
   font-family: 'Marck Script', cursive;
-  font-size: 30px;
-  background: rgba(100, 0, 100, 0.1);
+  font-size: 100%;
+  background: rgb(240, 240, 240);
   #wrapper {
     border-radius: 10px;
     background: white;
-    font-size: 30px;
+    font-size: 1rem;
     width: 960px;
-    box-shadow: 0px 0px 20px rgb(100, 0, 100);
+    box-shadow: 0px 0px 20px #5c5c5c;
     margin: 0 auto;
     header {
       text-align: center;
@@ -70,6 +72,12 @@ body {
         }
       }
     }
+    #slider2_container {
+//    height: 250px;
+//      width: 960px;
+//      height: 300px;
+      margin: 0 auto;
+    }
   }
   .test {
     //
@@ -81,7 +89,7 @@ body {
     display: none;
   }
   .content {
-    width: 61%;
+    width: 90%;
  display: inline-block;
     padding: 0 1%;
     border: ridge ;
@@ -121,9 +129,26 @@ body {
   #right-aside {
     display: inline-block;
     border: ridge;
-    float: right;
+    width: 17%;
+    float: left;
     margin: 1% 0 0 0;
-    width: 17.1%;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style-type: none;
+        img {
+          max-width: 100%;
+        }
+        a {
+          display: inline-block;
+          max-width: 100%;
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
 
   }
   footer {
