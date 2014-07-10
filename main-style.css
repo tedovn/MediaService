@@ -54,7 +54,9 @@ body {
               clear: both;
               display: block;
               content: ""; }
-    body #wrapper #slider2_container {
+    body #wrapper #slide-container {
+      width: 40%;
+      border: ridge;
       margin: 0 auto; }
   body #slides {
     display: none; }
@@ -66,13 +68,18 @@ body {
     margin: 1% 0 0 0; }
   body .advertisement-content {
     width: 79%;
-    border: ridge;
     display: inline-block;
     padding: 0 1%;
     margin: 1% 0 0 0; }
+    body .advertisement-content section article div h1 {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      padding-bottom: 20px; }
+    body .advertisement-content section article div p::first-letter {
+      padding-left: 40px;
+      font-size: 30px;
+      font-weight: bold; }
   body #left-aside {
     display: inline-block;
-    border: ridge;
     width: 17%;
     float: left;
     margin: 1% 0 0 0; }
@@ -80,12 +87,18 @@ body {
       margin: 0;
       padding: 0; }
       body #left-aside ul li {
-        list-style-type: none; }
+        margin-bottom: 5px;
+        list-style-type: none;
+        text-align: center; }
         body #left-aside ul li img {
           max-width: 100%; }
         body #left-aside ul li a {
-          display: inline-block;
-          max-width: 100%; }
+          display: block;
+          max-width: 100%;
+          text-decoration: none;
+          padding: 5px;
+          margin: 0 5px;
+          background: rgba(100, 0, 100, 0.1); }
           body #left-aside ul li a img {
             max-width: 100%; }
   body #right-aside {
