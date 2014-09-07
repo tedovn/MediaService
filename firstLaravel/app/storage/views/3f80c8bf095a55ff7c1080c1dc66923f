@@ -1,0 +1,8 @@
+<?php $__env->startSection('content'); ?>
+    <?php foreach($news as $msg): ?>
+            <div style="border: ridge"><?php echo e($msg->news_name) ."->". e($msg->author); ?></div>
+            <div><?php echo e($msg->context); ?></div>
+            <div><small><?php echo e($msg->date); ?></small></div>
+    <?php endforeach; ?>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.default', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

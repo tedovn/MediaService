@@ -1,0 +1,5 @@
+<p>Запитване от www.mediavarna.com:</p>
+<b>Име:</b> <?php echo e($name); ?><br>
+<b>E-mail:</b> <?php echo e($email); ?><br>
+<b>Отнoсно:</b> <?php echo e($subject); ?><br>
+<b>Запитване:</b> <?php echo e($msg); ?><br>

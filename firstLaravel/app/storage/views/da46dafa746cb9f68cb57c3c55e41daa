@@ -1,0 +1,6 @@
+
+<?php $__env->startSection('aside'); ?>
+<ul>
+    <li>das</li>
+</ul>
+<?php $__env->stopSection(); ?>

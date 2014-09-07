@@ -1,0 +1,30 @@
+<?php $__env->startSection('content'); ?>
+<?php echo $__env->make('../layouts.press', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<div class="col-lg-10">
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Печатна база</h1>
+
+                    <p>През 2009 год. врати отваря новоизградената печатна база на „Медиа Сървис“ ООД. Разполага с
+                        високоскоростна машина за широкоформатен печат с 8 цвята и ширина на печата до 5 метра. Това
+                        позволява оптимизиране на сроковете за изпълнение, а софтуерът управлява отлично качеството на
+                        печат върху различните медии.</p>
+
+                    <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+    <a href="/services">Go Back</a>
+</div>
+</div>
+<?php $__env->stopSection(); ?>
+
+
+<?php echo $__env->make('../layouts.default', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
