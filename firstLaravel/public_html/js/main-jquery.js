@@ -1,24 +1,15 @@
 
-window.onload = function (){
-    var html = document.documentElement;
-    var body = document.body;
-    var height_diff =   html.clientHeight - body.clientHeight;
-    if(height_diff > 0) {
-        document.getElementsByClassName('footer')[0].style.marginTop = height_diff - 70 + "px";
-    }
-    var width = html.clientWidth;
-    var height = html.clientHeight;
-    console.log('height->' +height); 
-    console.log('width->' +width);
-    if(height > 800) {
+
+var html = document.documentElement;
+var height = html.clientHeight;
+
+if(height > 700) {
+
         /*---------------------
  SETTINGS
  */
 
-
-
-
- var gallerySettings = {
+var gallerySettings = {
     markup    : '' +
     '<div class="popup">' +
     '<div class="popup_wrap">' +
@@ -129,10 +120,7 @@ $.extend($.easing, {
         return c*(t/=d)*t*((s+1)*t - s) + b;
     }
 });
-    }
-};
-
-
+}
 
 
 
