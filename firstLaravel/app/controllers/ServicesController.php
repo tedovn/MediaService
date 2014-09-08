@@ -83,7 +83,13 @@ class ServicesController extends \BaseController
     {
         $title = 'Печатна база - портфолио';
         $page = 'services';
-        return View::make('/services/press/portfolio')->with('title', $title)->with('page', $page);
+        $galleryOrig = array('armeec'=>'Armeec_OOH','aviobilet'=>'Aviobilet',
+                'balkan'=>'Balkan','benim'=>'Benim','berg'=>'Berg','bgutre'=>'BG utre','ccb'=>'CCB_Billbord_CoBrandCard',
+                'chuchurite'=>'Chuchurite','ea'=>'ea','fanpoint'=>'Fan point','hawai'=>'Hawai','jackie'=>'Jackie',
+                'modabar'=>'Moda-Bar','modera'=>'Modera','omex'=>'Omex','technohit'=>'technohit','trinity'=>'Trinity',
+                'yavor'=>'yavor');
+
+        return View::make('/services/press/portfolio')->with('title', $title)->with('page', $page)->with('gallerys',$galleryOrig);
     }
 
     /**
