@@ -1,7 +1,7 @@
 <div class="container wrapper footerCheck">
     <div class="col-lg-2">
         <!-- Sidebar -->
-        <div id="sidebar-wrapper">
+        <div id="sidebar-wrapper" class="press-sidebar-position">
             <ul class="sidebar-nav">
                 <li>
                     <a href="/services/press">Печатна база</a>

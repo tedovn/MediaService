@@ -19,7 +19,7 @@ body {
     margin-bottom: 15%;
 }
 #partners-logo img{
- /**/
+   /**/
 }
 .Tmargin-top {
     margin-top: 2%;
@@ -32,7 +32,7 @@ body {
     /*width: 50px;*/
 }
 .Tsection-bgc {
- background: rgb(81, 156, 255);
+   background: rgb(81, 156, 255);
 }
 .THeading-blue-color  h1 a,.THeading-black-color h1 a {
     display: block;
@@ -87,9 +87,9 @@ section img{
     margin-top: 7%;
 }
 .THeading-black-color {
- background: rgb(84,86,88);
- /*height: 30px;*/
- position: relative;
+   background: rgb(84,86,88);
+   /*height: 30px;*/
+   position: relative;
 }
 .THeading-black-color h1{
     padding: 5px;
@@ -227,11 +227,11 @@ section img{
     }
     .redWarning {
 
-       /*font-style: italic;*/
-       margin-right: 2%;
+     /*font-style: italic;*/
+     margin-right: 2%;
 
-   }
-   .warningPosition {
+ }
+ .warningPosition {
     text-align: right;
     color: red;
 }
@@ -287,8 +287,22 @@ section img{
     box-shadow: 5px 2px 2px #888888;
 
 }
+#goBack {
+    
+    padding: 1%;
+    color: white;
+    display: inline-block;
+    background: rgb(81,156,255);
+}
+#goBack:hover {
+    color: grey;
+    background: rgba(81,156,255,0.5);
+    text-decoration: none;
+    transition: background 0.5s;
+
+}
 .gallery-image-position  {
-   
+
     margin:2%;
     width: 100%;
 }
@@ -305,9 +319,26 @@ section img{
     }
     .gallery-image-position  {
 
-    margin-bottom:1%;
-    width: 100%;
+        margin-bottom:1%;
+        width: 100%;
 
-}
+    }
+    .press-sidebar-position {
+        position: fixed;
+        left: 0 !important;
+        background:none !important;
 
+    }
+    
+    .press-sidebar-position li a:hover{
+
+        color: white !important;
+        background: grey !important;
+        
+    }
+    #goBack  {
+        margin-bottom: 20% ;
+    }
+   
+    
 }

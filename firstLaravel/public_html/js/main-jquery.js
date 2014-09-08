@@ -4,12 +4,11 @@ var html = document.documentElement;
 var height = html.clientHeight;
 
 if(height > 700) {
-
-        /*---------------------
+ /*---------------------
  SETTINGS
  */
 
-var gallerySettings = {
+ var gallerySettings = {
     markup    : '' +
     '<div class="popup">' +
     '<div class="popup_wrap">' +
@@ -95,6 +94,7 @@ $(function () {
                 var newIndex = $(e.target).attr('href') === '#next'
                 ? popup.currentIndex + 1
                 : popup.currentIndex - 1;
+
                 // Make sure the index is valid
                 if (newIndex > $items.length - 1) {
                     popup.currentIndex = 0;
@@ -107,7 +107,7 @@ $(function () {
                 $current = $($items[popup.currentIndex]);
                 // Load the content
                 popup.open($current.attr('href'), undefined, $current[0]);
-            });
+                });
     });
 });
 $.extend($.easing, {

@@ -1,6 +1,7 @@
 @extends('../layouts.default')
 
 @section('content')
+
 @include ('../layouts.press')
 <div class="col-lg-10">
     <!-- Page Content -->
@@ -22,8 +23,8 @@
         </div>
     </div>
     <!-- /#page-content-wrapper -->
-    <a href="/services">Go Back</a>
+    <a href="/services" id="goBack"><i class="glyphicon glyphicon-chevron-left"></i> Назад</a>
 </div>
 </div>
-@stop
+@endsection
 
