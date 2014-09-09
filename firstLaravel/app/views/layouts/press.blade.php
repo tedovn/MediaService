@@ -1,5 +1,5 @@
 <div class="container wrapper footerCheck">
-    <div class="col-lg-2">
+    <div class="col-lg-2 col-md-2">
         <!-- Sidebar -->
         <div id="sidebar-wrapper" class="press-sidebar-position">
             <ul class="sidebar-nav">

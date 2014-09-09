@@ -9412,3 +9412,101 @@ Stack trace:
 #9 C:\Users\Tedo\Documents\PHP Storm\firstLaravel\firstLaravel\bootstrap\compiled.php(659): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
 #10 C:\Users\Tedo\Documents\PHP Storm\firstLaravel\firstLaravel\public_html\index.php(49): Illuminate\Foundation\Application->run()
 #11 {main} [] []
+[2014-09-09 18:22:46] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php:5687
+Stack trace:
+#0 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(717): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(698): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(7706): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8309): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8256): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(10895): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(659): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\public_html\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-09 18:22:46] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php:5687
+Stack trace:
+#0 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(717): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(698): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(7706): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8309): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8256): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(10895): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(659): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\public_html\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-09 18:22:46] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php:5687
+Stack trace:
+#0 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(717): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(698): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(7706): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8309): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8256): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(10895): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(659): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\public_html\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-09 18:22:46] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php:5687
+Stack trace:
+#0 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(717): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(698): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(7706): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8309): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8256): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(10895): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(659): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\public_html\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-09 18:23:11] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php:5687
+Stack trace:
+#0 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(717): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(698): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(7706): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8309): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8256): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(10895): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(659): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\public_html\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-09 18:23:11] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php:5687
+Stack trace:
+#0 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(717): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(698): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(7706): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8309): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8256): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(10895): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(659): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\public_html\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-09-09 18:23:11] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php:5687
+Stack trace:
+#0 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(717): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(698): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(7706): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8309): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(8256): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(10895): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\bootstrap\compiled.php(659): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 E:\Yavor\storel\MediaService.git\trunk\firstLaravel\public_html\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []

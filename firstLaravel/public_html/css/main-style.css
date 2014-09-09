@@ -307,10 +307,10 @@ section img{
 }
 .gallery-image-position  {
 
-    margin:2%;
+    margin-bottom:2%;
     width: 100%;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 992px) {
     .Tmargin-position p {
         padding: 0 0 10% 0;
     }
@@ -323,7 +323,6 @@ section img{
     }
     .gallery-image-position  {
 
-        margin-bottom:1%;
         width: 100%;
 
     }
@@ -335,9 +334,9 @@ section img{
     }
     
     .press-sidebar-position li a:hover{
-
-        color: white !important;
-        background: grey !important;
+            
+            color: white !important;
+            background: rgba(51,51,51,0.9) !important;
         
     }
     #goBack  {

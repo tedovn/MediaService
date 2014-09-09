@@ -5,7 +5,7 @@
 <?php 
 ;
 ?>
-<div class="col-lg-10">
+<div class="col-lg-10 col-md-10">
     <!-- Page Content -->
     <div id="page-content-wrapper">
         <div class="container-fluid">
