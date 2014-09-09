@@ -26,10 +26,10 @@
     <!-- Static navbar -->
     <div class="navbar navbar-inverse" role="navigation">
       <div class="container wrapper">
-      
-          <div class=" Tlogo navbar-btn">
+        <div class="row">
+          <div class="Tlogo navbar-btn">
             <a class="navbar-brand" href="/">
-              <img src="/img/final-logo-1.png" alt="logo" title='Media Serviceс, LTD'>
+              <img src="/img/final-logo-1.png" alt="logo" title="Media Services, LTD">
             </a>
           </div>
           <div >
@@ -71,7 +71,7 @@
               </ul>
             </div>
           </div>
-       
+        </div>
       </div>
     </div>
     <!--laravel-->
