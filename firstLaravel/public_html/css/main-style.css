@@ -76,9 +76,13 @@ section img{
     padding: 0;
     margin: 0;
 }
+.Tlogo {
+    width: 200px;
+    height:45px;
+}
 .Tlogo a{
     display: block;
-    width:25%;
+    width:100%;
 }
 .Tlogo img {
     width: 100%;

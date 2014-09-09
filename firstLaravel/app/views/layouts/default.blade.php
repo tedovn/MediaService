@@ -26,13 +26,13 @@
     <!-- Static navbar -->
     <div class="navbar navbar-inverse" role="navigation">
       <div class="container wrapper">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 Tlogo navbar-btn">
-            <a class="navbar-brand" href="#">
-              <img src="/img/final-logo.png">
+      
+          <div class=" Tlogo navbar-btn">
+            <a class="navbar-brand" href="/">
+              <img src="/img/final-logo-1.png" alt="logo" title='Media Serviceс, LTD'>
             </a>
           </div>
-          <div class="col-lg-6 col-md-6">
+          <div >
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -71,7 +71,7 @@
               </ul>
             </div>
           </div>
-        </div>
+       
       </div>
     </div>
     <!--laravel-->
